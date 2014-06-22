@@ -65,7 +65,7 @@ def plant(depth=8):
     plotstr = apply_rules(rules, 'x', depth)
     str_to_coords(plotstr, angle, 1., math.pi/2.)
 
-def carpet(depth):
+def carpet(depth=6):
     angle = math.pi/2.
     rules = {'w':'ww+w+w+w+ww', '+':'+'}
     plotstr = apply_rules(rules, 'w+w+w+w', depth)
